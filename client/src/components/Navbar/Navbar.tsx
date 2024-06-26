@@ -3,9 +3,5 @@ import React from 'react';
 const styles = require('./Navbar.module.scss');
 
 export const Navbar = () => {
-  
-  return (
-    <div className={styles.nav}>
-    </div>
-  );
+  return <div className={styles.nav}></div>;
 };
