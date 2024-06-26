@@ -2,10 +2,38 @@
   "name": "client",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "dist/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
   },
   "author": "Ilona Gąsiewska",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript-plugin-css-modules": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/node": "^17.0.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^7.1.2",
+    "dotenv-webpack": "^8.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.2",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
 }
