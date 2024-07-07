@@ -1,0 +1,33 @@
+.project {
+    background-color: var(--yellow);
+    min-width: 270px;
+    min-height: 270px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.dark .project{
+    background-color: var(--gray);
+}
+
+.project i {
+    font-size: 20px;
+}
+
+.number{
+    font-size: 50px;
+    margin-top: -50px;
+}
+
+
+.project a {
+    align-self: end;
+    color: var(--black);
+}
+
+.dark .project a {
+    color: var(--white);
+}

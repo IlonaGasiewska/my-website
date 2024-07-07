@@ -1,0 +1,10 @@
+.social-media i {
+  color: var(--black);
+  text-align: center;
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.dark .social-media i {
+  color: var(--white);
+}

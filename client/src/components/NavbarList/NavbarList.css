@@ -1,0 +1,35 @@
+.navbar-list {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  order: 3;
+}
+
+.navbar-list-link {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 900;
+}
+
+.dark .navbar-list-link {
+  color: var(--white);
+}
+
+.navbar-list-item {
+  padding: 0px 10px;
+}
+
+.navbar-list-item :hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media (min-width: 1000px) {
+  .navbar-list {
+    width: fit-content;
+    order: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

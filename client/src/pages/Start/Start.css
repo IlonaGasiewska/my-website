@@ -1,0 +1,13 @@
+.start {
+  padding-top:7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (min-width: 1100px) {
+  .start {
+    padding-top: 12rem;
+  }
+}

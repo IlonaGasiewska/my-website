@@ -1,0 +1,33 @@
+.button {
+  padding: 20px 50px;
+  background-color: transparent;
+  color: var(--white);
+  cursor: pointer;
+  border: 1px solid var(--black);
+  border-radius: 100px;
+  font-weight: bold;
+  background-color: black;
+}
+
+.dark .button {
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+
+.button.active {
+  background-color: var(--yellow);
+  border: 1px solid var(--yellow);
+  color: var(--black);
+}
+
+.button:hover {
+  border: 1px solid var(--black);
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.dark .button:hover {
+  border: 1px solid var(--white);
+  background-color: var(--black);
+  color: var(--white);
+}

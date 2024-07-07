@@ -1,0 +1,29 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  padding-top: 7rem;
+}
+
+.projects h1 {
+  font-size: 60px;
+  margin-bottom: 100px;
+}
+
+.projects-holder {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1100px) {
+  .projects-holder {
+    gap:20px;
+  }
+}

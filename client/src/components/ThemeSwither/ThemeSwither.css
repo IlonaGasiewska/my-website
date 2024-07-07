@@ -1,0 +1,29 @@
+.theme-switcher {
+  width: 80px;
+  height: 45px;
+  background: linear-gradient(to left, #2a292f, #43424a);
+  background-size: contain;
+  border-radius: 100px;
+  justify-content: left;
+  padding: 0px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.theme-switcher-button {
+  width: 35px;
+  height: 35px;
+  background-image: url(../../../public/images/moon.png);
+  background-size: 100%;
+}
+
+.light .theme-switcher {
+  background: linear-gradient(to left, #00a9ff, #0077b6);
+  justify-content: right;
+}
+
+.light .theme-switcher-button {
+  background-image: url(../../../public/images/sunny.png);
+}
